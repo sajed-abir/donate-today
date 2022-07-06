@@ -267,4 +267,24 @@ input[type=text] {
     margin-left: 23%;
 }
 
+#input {
+    display: flex;
+    justify-content: center;
+}
+
+#subscribe {
+    position: absolute;
+    color: white;
+    padding: 10px 15px;
+    border-radius: 5px;
+    background-color: #ff5959;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+#mail {
+    padding: 10px 15px;
+    border-radius: 5px;
+}
+
 /*email end*/
