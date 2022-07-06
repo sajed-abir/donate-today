@@ -1,5 +1,4 @@
 * {
-    font-family: 'Bebas Neue', cursive;
     font-family: 'Roboto', sans-serif;
     padding: 0;
     margin: 0;
@@ -259,7 +258,7 @@ input[type=text] {
     display: flex;
     justify-content: center;
     background-color: #FFF4D6;
-    border: 1px solid black;
+    border: 1px;
     width: 809px;
     height: 200px;
     left: 316px;
@@ -280,11 +279,40 @@ input[type=text] {
     background-color: #ff5959;
     font-size: 18px;
     text-decoration: none;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
 }
 
 #mail {
     padding: 10px 15px;
     border-radius: 5px;
+    width: 250px;
+    align-items: center;
+    background-color: gainsboro;
+    border-right: 0;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    border: 0;
+    padding-bottom: 17px;
+}
+
+#mail-form {
+    padding-right: 30%;
+    padding-top: 35%;
 }
 
 /*email end*/
+
+footer {
+    display: flex;
+    justify-content: center;
+    padding: 50px;
+    margin-top: 20px;
+    background-color: black;
+    color: #ff5959;
+}
+
+footer p {
+    display: block;
+    position: relative;
+}
