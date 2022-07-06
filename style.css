@@ -67,11 +67,177 @@
     border: 2px;
     margin: 15px;
     padding: 50px;
+    border-radius: 5px;
     background-color: whitesmoke;
-
+    font-size: 32px;
 }
 
 #ractangle {
-    padding-left: 20%;
-    padding-top: 20px;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
 }
+
+#marked-card {
+    border: 2px solid #ff5959;
+    background-color: #f5cccc;
+    color: #ff5959;
+}
+
+#enter-amount {
+    display: block;
+    justify-content: center;
+    padding-left: 19%;
+    margin: 30px;
+}
+
+input[type=text] {
+    width: 75%;
+    box-sizing: border-box;
+    border: none;
+    border-bottom: 2px solid gray;
+    text-align: center;
+    font-size: 30px;
+    color: lightslategray;
+}
+
+#center-lower-button {
+    display: flex;
+    justify-content: center;
+}
+
+#lower-button {
+    position: absolute;
+    color: white;
+    padding: 1rem 2rem;
+    border-radius: 5px;
+    background-color: #ff5959;
+    font-size: 24px;
+    text-decoration: none;
+}
+
+/*Donate Today end*/
+
+/*thre cards start*/
+#donate-plan {
+    display: block;
+    text-align: center;
+    margin-top: 10rem;
+}
+
+#donate-plan h1 {
+    font-size: 50px;
+    margin-bottom: 15px;
+}
+
+#center-cards {
+    display: flex;
+    justify-content: center;
+    margin: 150px;
+}
+
+.big-card {
+    margin: 10px;
+    padding: 20px;
+    padding-bottom: 63px;
+    border-radius: 5px;
+}
+
+.reposition-icon {
+    padding: 30px;
+}
+
+#center-cards h2 {
+    padding: 20px;
+}
+
+#center-cards p {
+    padding: 20px;
+}
+
+#light-blue {
+    background-color: #4F9DA61A;
+}
+
+#light-pink {
+    background-color: #FF59591A;
+}
+
+#light-yellow {
+    background-color: lightgoldenrodyellow;
+}
+
+/*three cards end*/
+
+/*Side by side start*/
+
+.side-b-side {
+    display: flex;
+    justify-content: center;
+
+}
+
+.side-b-side img {
+    width: 456px;
+    height: 477px;
+    left: 732px;
+    top: 2078px;
+    border-radius: 10px;
+}
+
+#side-b-side-text {
+    display: block;
+    width: 456px;
+    height: 477px;
+    left: 732px;
+    top: 2078px;
+}
+
+#side-b-side-text h1 {
+    padding-top: 30px;
+    padding-right: 35px;
+    font-size: 50px;
+}
+
+#side-b-side-text p {
+    padding: 30px;
+    padding-left: 0;
+}
+
+#third-button {
+    position: absolute;
+    color: white;
+    padding: 1rem 2rem;
+    border-radius: 5px;
+    background-color: #ff5959;
+    font-size: 24px;
+    text-decoration: none;
+}
+
+/*Side by side end*/
+
+/*Gallery start*/
+#text {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    border: 20px;
+    margin-top: 60px;
+    font-size: 40px;
+}
+
+#gallery {
+    display: flex;
+    justify-content: center;
+}
+
+#gallery img {
+    height: 150px;
+    width: 200px;
+    margin: 20px;
+    border-radius: 10px;
+}
+
+#gallery h1 {}
+
+/*Gallery start*/
