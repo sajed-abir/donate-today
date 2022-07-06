@@ -236,8 +236,35 @@ input[type=text] {
     width: 200px;
     margin: 20px;
     border-radius: 10px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
 }
 
-#gallery h1 {}
+/*Gallery end*/
 
-/*Gallery start*/
+/*email start*/
+#email-text {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin: 30px;
+    margin-top: 50px;
+}
+
+#email-text h1 {
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+
+#yellow-back {
+    display: flex;
+    justify-content: center;
+    background-color: #FFF4D6;
+    border: 1px solid black;
+    width: 809px;
+    height: 200px;
+    left: 316px;
+    top: 3442px;
+    margin-left: 23%;
+}
+
+/*email end*/
